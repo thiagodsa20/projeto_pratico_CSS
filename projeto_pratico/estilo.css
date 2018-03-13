@@ -1,0 +1,235 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url(imgs/fundo_azul.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: Arial, Verdana, Georgia;
+    font-size: 14px;
+    color: black;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a:link{
+    color: rgb(0, 89, 178);
+    text-decoration: none;  
+}
+
+/* Estrutura do Layout */
+
+.container {
+    display: block;
+    width: 100%;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid black;
+}
+
+.container .row {
+
+    display: table;
+    width: 100%;
+}
+
+.coluna_logomarca {
+
+    width: 270px;
+    float: left;
+    margin-top: 18px;
+}
+
+.coluna_menu {
+
+    width: 647px;
+    float: right;
+}
+
+.coluna_areaNoticias {
+
+    float: left;
+    width: 456px;
+}
+
+.coluna_AreaProdutos{
+
+    float: right;
+    width: 457px;    
+}
+
+.coluna_produto {
+    float: left;    
+    width: 220px;
+}
+
+.coluna_produto02 {
+    float: right;
+    width: 220px;
+}
+/* Definições do Menu */
+
+.container_menu {
+
+    /*background: url(imgs/menu-bg.png) top repeat-x; */
+    box-shadow: 5px 5px 5px black;
+    -o-box-shadow: 5px 5px 5px black;
+    -moz-box-shadow: 5px 5px 5px black;
+    -webkit-box-shadow: 5px 5px 5px black;
+    margin-top: 15px; 
+    display: table;
+    width: 100%;
+}
+
+.container_menu a { 
+
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 21px;
+    padding-right: 21px;
+    color: black;
+    transition: background ease-out 0.6s, color ease-out 0.6s;
+    -webkit-transition: background ease-out 0.6s, color ease-out 0.6s;
+    -moz-transition: background ease-out 0.6s, color ease-out 0.6s;
+    -o-transition: background ease-out 0.6s, color ease-out 0.6s;
+}
+
+.container_menu a:hover{
+    color: white;
+    /*background: rgb(173, 212, 111); */
+    background: rgb(79, 90, 209);
+}
+
+.container_menu a:first-child {
+
+    margin-left: 1px;
+
+}
+
+.iconeInicial {
+    padding-top: 18px;
+    width: 201px;
+    float: left;
+    margin: 17px;
+}
+
+.iconeInicial:first-child{
+    margin-left:0px;
+}
+
+.iconeInicial:last-child{
+    margin-right:0px;
+}
+
+.icone, .tituloIcone{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+.rodape {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Definições do Slider */
+
+#containerSlider {
+    width: 975;
+    height: 568;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px black, -1px -1px 8px black;
+    -webkit-box-shadow: 1px 1px 5px black, -1px -1px 8px black;
+    -moz-box-shadow: 1px 1px 5px black, -1px -1px 8px black;
+    -o-box-shadow: 1px 1px 5px black, -1px -1px 8px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+/* Classes de Uso Geral */
+
+.titulo {
+
+    font-size: 23px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #BCBCBC;
+
+}
+
+h1.titulo {
+
+}
+
+.bordaArredondada {
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top: 30px;  
+}
+
+.divBordaCinzaVazada {
+    border: 2px solid #BCBCBC;
+}
+
+.efeitoHover{
+    transition: background ease-out 0.6s, color ease-out 0.6s;
+    -webkit-transition: background ease-out 0.6s, color ease-out 0.6s;
+    -moz-transition: background ease-out 0.6s, color ease-out 0.6s;
+    -o-transition: background ease-out 0.6s, color ease-out 0.6s;
+}
+
+.efeitoHover:hover {
+    background: white;
+}
+
+.marginInterna {
+    margin: 8px;  
+}
+
+.fundoBrancoTransp {
+    background: white;
+}
+
+/* Espaçamento Inferior */
+.ei {
+    margin-bottom: 30px;
+}
+
+/* Página Interna */
+
+.thumbnail, .thumbnail-right {
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.thumbnail {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.thumbnail-right {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.paginaInterna p {
+    text-align: justify;
+}
